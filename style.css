@@ -1,0 +1,25 @@
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
+
+#left {
+  background-color: grey;
+  height: 100%;
+  width: 200px;
+  margin-top: 20px;
+}
+#right {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+}
+#i1 {
+  outline: none;
+}
