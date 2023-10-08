@@ -43,6 +43,7 @@ function addTask() {
   });
   edit.addEventListener("click", () => {
     b.contentEditable = "true";
+    b.style.backgroundColor = "#dddbdb";
   });
   b.addEventListener("keydown", (e) => {
     if (e.key == "Enter") {
